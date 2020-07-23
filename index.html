@@ -3,29 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Моя выдуманная визитка</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <header>
-      <h2>Шевчук Юлия</h2>
-        <nav>
-          <p><a href="images/xxx.jpg">Моя биография</a></p>
-          <p><a href="tip.html">Профессиональные достижения</a></p>
+    <header class="header">
+      <h2 class="header__title">Шевчук Юлия</h2>
+        <nav class="nav">
+          <a class="nav__link" href="images/xxx.jpg">Моя биография</a><br>
+          <a class="nav__link" href="tip.html">Профессиональные достижения</a>
         </nav>
     </header>
-    <section>
-      <h3>Моя биография</h3>
-      <p>Родилась в Кахахстане, но уже 10 лет живу в России, и еще куча информации обо мне.</p>
+    <section class="section-one">
+      <h3 class="section-one__title">Моя биография</h3>
+      <p class="section-one__text">Родилась в Кахахстане, но уже 10 лет живу в России, и еще куча информации обо мне.</p>
     </section>
-    <section>
-      <h3>Проффессиональный путь</h3>
-      <p>В 2015 году закончила гимназию №22.</p>
-      <p>В 2020 году закончила БГТУ им. В.Г.Шухова с красным дипломом по специальности "Пожарная безопасность".</p>
-      <p><input type="button" value="Посмотреть мое резюме"></p>
+    <section class="section-two">
+      <h3 class="section-two__title">Проффессиональный путь</h3>
+      <p class="section-two__text">В 2015 году закончила гимназию №22.</p>
+      <p class="section-two__text">В 2020 году закончила БГТУ им. В.Г.Шухова с красным дипломом по специальности "Пожарная безопасность".</p>
+      <p><input class="section-two__button" type="button" value="Посмотреть мое резюме"></p>
     </section>
-    <footer>
-      <h4>Связаться со мной</h4>
-      <p>По электронной почте: <a href="tip.html">yulia-shevchuk@ooo.ru</a></p>
-      <p>Через соц.сети: <input type="button" value="Выбрать соц. сеть"> </p>
+    <footer class="footer">
+      <h4 class="footer__title">Связаться со мной</h4>
+      <p class="footer__text">По электронной почте: <a class="footer__link" href="tip.html">yulia-shevchuk@ooo.ru</a></p>
+      <p class="footer__text">Через соц.сети: <input class="footer__button"type="button" value="Выбрать соц. сеть"> </p>
     </footer>
   </body>
 </html>
